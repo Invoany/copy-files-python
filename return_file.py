@@ -3,13 +3,13 @@ import fnmatch
 import shutil
 
 ini_path = os.getcwd()
-in_f=r'C:/Users/jorge/OneDrive - Portugal Telecom/Jorge Nunes/Python/Return_Files/Input/lista.txt'
-
+in_f= ini_path + '\\Input\\list.txt'
 # Output folder to store the files founded
-out_f=r'C:/Users/jorge/OneDrive - Portugal Telecom/Jorge Nunes/Python/Return_Files/Output'
+out_f= ini_path + '\\Output'
 
 # Root Path to start searching
-os.chdir(r'C:\Users\jorge\Downloads')
+search_path= input("Please write or paste the Path where you want to start the Search.\n")
+os.chdir(search_path)
 cur_path= os.getcwd()
 
 
