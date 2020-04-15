@@ -30,7 +30,7 @@ def return_file(pattern):
     print("-----BEGIN Search fiels-----")
     for p in pattern:
         print("-----Pattern: ",p)
-        for dirpath, dirnames, files in os.walk(cur_path):
+        for dirpath, _, files in os.walk(cur_path):
             for file in files:
                 if fnmatch.fnmatch(file.upper(), p.upper()):
                     stra = os.path.join(dirpath, file)
