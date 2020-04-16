@@ -7,8 +7,8 @@ For example to find all pdf files and copy them to the **Output folder** you can
 >*.pdf
 
 Another example, an **PDF** with a **specific name**, or all kind of files with an given name:
->*Nunes.pdf
-BigDataCracker.*
+>*Nunes.pdf 
+>BigDataCracker.*
 
 
 The Script as **3 Main Funtions**:
