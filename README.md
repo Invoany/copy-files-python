@@ -4,10 +4,10 @@ Simple **Python** Script to retrieve Files based on an given **pattern**.
 After the project has been downloaded the file **Lits.txt** inside of the folder **"Input"** can be changed, this file contains the pattern or the patterns that the user wants to **find/copy** should be wrote on the file, different patterns on diffent lines:
 
 For example to find all pdf files and copy them to the **Output folder** you can write:
-*.pdf
+>*.pdf
 Another example, an **PDF** with a **specific name**, or all kind of files with an given name:
-*Nunes.pdf
-BigDataCracker.*
+>*Nunes.pdf
+>BigDataCracker.*
 
 
 The Script as **3 Main Funtions**:
