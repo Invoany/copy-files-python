@@ -5,6 +5,7 @@ After the project has been downloaded the file **Lits.txt** inside of the folder
 
 For example to find all pdf files and copy them to the **Output folder** you can write:
 >*.pdf
+
 Another example, an **PDF** with a **specific name**, or all kind of files with an given name:
 >*Nunes.pdf
 >BigDataCracker.*
