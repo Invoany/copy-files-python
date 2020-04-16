@@ -11,6 +11,7 @@ Another example, an **PDF** with a **specific name**, or all kind of files with 
 
 >BigDataCracker.*
 
+During execution of the script the user is going to be prompt to insert the **Base Path** where the script will start to search for the patterns in the filenames, the search is not only on the **Base Path** but also on the **Subdirectories**.
 
 The Script as **3 Main Funtions**:
 - **create_list**(Function that retrieves a List of all the patterns present in List.txt inside of Input Folder)
