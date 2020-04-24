@@ -1,4 +1,4 @@
-# Copy files with pattern
+# Copy files with pattern using Python
 Simple **Python** Script to retrieve Files based on an given **pattern**.
 
 After the project has been downloaded the file **Lits.txt** inside of the folder **"Input"** can be changed, this file contains the pattern or the patterns that the user wants to **find/copy** should be wrote on the file, different patterns on diffent lines:
